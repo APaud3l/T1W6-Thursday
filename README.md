@@ -1,69 +1,70 @@
 ## Control Flow
 Order in which lines of code are executed in a program.
 
-print("Hello, welcome to programming with Python")
+    print("Hello, welcome to programming with Python")
 
-a = 10
-b = 5
-result = a + b
+    a = 10
+    b = 5
+    result = a + b
 
-print(f"The result of adding {a} and {b} is {result}")
+    print(f"The result of adding {a} and {b} is {result}")
 
-print("Thank you")
+    print("Thank you")
+    
 # Sequential control flow
 Execution of code statements one after another, in the order they appear in the program
 
 # Conditional control flow / Control flow
 Execution of code statements based on some input
 
-if tomorrow is Saturday
-    set alarm for 7
-if tomorrow is Tuesday
-    set alarm for 6
+    if tomorrow is Saturday
+        set alarm for 7
+    if tomorrow is Tuesday
+        set alarm for 6
 
 # Boolean Data Type Re-visit
 Data type that has two values: True and False. Boolean values are used to control the flow of the program.
 
-is_the_earth_flat = False
-print(is_the_earth_flat)
+    is_the_earth_flat = False
+    print(is_the_earth_flat)
 
-i_am_happy = True
-print(i_am_happy)
+    i_am_happy = True
+    print(i_am_happy)
 
 # Comparison Operators / Relational Operators
 Decide the relationship between the operands. Result of comparsion is a boolean value (True/False)
-x = 5
-y = 7
-z = 9
+    x = 5
+    y = 7
+    z = 9
 
-print(y != z)
+    print(y != z)
 
-if tomorrow == Saturday:
-    set alarm for 7
-if tomorrow == Tuesday
-    set alarm for 6
+    if tomorrow == Saturday:
+        set alarm for 7
+    if tomorrow == Tuesday
+        set alarm for 6
 
 # if, elif, else
 Simplest form of AI (you could say that)
 'if' checks the condition, if true, the intended blocks get executed, if false, it skips the intended blocks
 
-today = "Tuesday"
+    today = "Tuesday"
 
-if today == "Monday":
-    print("Set an alarm for 5 AM!")
-elif today == "Tuesday":
-    print("Set an alarm for 6 AM!")
-elif today == "Saturday":
-    print("Set an alarm for 7 AM!")    
+    if today == "Monday":
+        print("Set an alarm for 5 AM!")
+    elif today == "Tuesday":
+        print("Set an alarm for 6 AM!")
+    elif today == "Saturday":
+        print("Set an alarm for 7 AM!")    
 
-temperature = 40
+    temperature = 40
 
-if temperature > 35:
-    print("It's hot outside.")
-if temperature < 15:
-    print("It's cold outside.")
-else:
-    print("The weather is mild.")
+    if temperature > 35:
+        print("It's hot outside.")
+    if temperature < 15:
+        print("It's cold outside.")
+    else:
+        print("The weather is mild.")
 
 # pass
 Does nothing, just....passes..fow now
@@ -71,43 +72,44 @@ Does nothing, just....passes..fow now
 # Boolean Operators
 AND, OR, NOT. Operands needs to be boolean as well
 
-age = 20
-has_permission = False
+    age = 20
+    has_permission = False
 
-if age >= 18:
-    if has_permission:
+    if age >= 18:
+        if has_permission:
+            print("Access granted.")
+        else:
+            print("Access denied.")
+    else:
+        print("Access denied.")
+
+    if age >=18 and has_permission:
         print("Access granted.")
     else:
         print("Access denied.")
-else:
-    print("Access denied.")
-
-if age >=18 and has_permission:
-    print("Access granted.")
-else:
-    print("Access denied.")
 
 # Ternary Operator
 Condense series of code to one line, where applicable
 
-print("Access granted.") if age >=18 and has_permission else print("Access denied.")
+    print("Access granted.") if age >=18 and has_permission else print("Access denied.")
 
 
-temperature = 30
+    temperature = 30
 
-if temperature > 30:
-     message = "It's hot outside"
-else:
-     message = "It's not hot outside"
+    if temperature > 30:
+        message = "It's hot outside"
+    else:
+        message = "It's not hot outside"
 
-print(message)
+    print(message)
 
 
-message = "It's hot outside" if temperature > 30 else "It's not hot outside"
+    message = "It's hot outside" if temperature > 30 else "It's not hot outside"
 
 # Match-case
 Control flow, similar to switch statement in other programming languages
-day_number = 3
+
+    day_number = 3
 
     match day_number:
         case 1:

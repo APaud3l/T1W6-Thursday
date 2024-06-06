@@ -10,11 +10,11 @@ Order in which lines of code are executed in a program.
     print(f"The result of adding {a} and {b} is {result}")
 
     print("Thank you")
-    
-# Sequential control flow
+
+## Sequential control flow
 Execution of code statements one after another, in the order they appear in the program
 
-# Conditional control flow / Control flow
+## Conditional control flow / Control flow
 Execution of code statements based on some input
 
     if tomorrow is Saturday
@@ -22,7 +22,7 @@ Execution of code statements based on some input
     if tomorrow is Tuesday
         set alarm for 6
 
-# Boolean Data Type Re-visit
+## Boolean Data Type Re-visit
 Data type that has two values: True and False. Boolean values are used to control the flow of the program.
 
     is_the_earth_flat = False
@@ -31,7 +31,7 @@ Data type that has two values: True and False. Boolean values are used to contro
     i_am_happy = True
     print(i_am_happy)
 
-# Comparison Operators / Relational Operators
+## Comparison Operators / Relational Operators
 Decide the relationship between the operands. Result of comparsion is a boolean value (True/False)
     x = 5
     y = 7
@@ -44,7 +44,7 @@ Decide the relationship between the operands. Result of comparsion is a boolean 
     if tomorrow == Tuesday
         set alarm for 6
 
-# if, elif, else
+## if, elif, else
 Simplest form of AI (you could say that)
 'if' checks the condition, if true, the intended blocks get executed, if false, it skips the intended blocks
 
@@ -66,10 +66,10 @@ Simplest form of AI (you could say that)
     else:
         print("The weather is mild.")
 
-# pass
+## pass
 Does nothing, just....passes..fow now
 
-# Boolean Operators
+## Boolean Operators
 AND, OR, NOT. Operands needs to be boolean as well
 
     age = 20
@@ -88,7 +88,7 @@ AND, OR, NOT. Operands needs to be boolean as well
     else:
         print("Access denied.")
 
-# Ternary Operator
+## Ternary Operator
 Condense series of code to one line, where applicable
 
     print("Access granted.") if age >=18 and has_permission else print("Access denied.")
@@ -106,7 +106,7 @@ Condense series of code to one line, where applicable
 
     message = "It's hot outside" if temperature > 30 else "It's not hot outside"
 
-# Match-case
+## Match-case
 Control flow, similar to switch statement in other programming languages
 
     day_number = 3
@@ -123,7 +123,7 @@ Control flow, similar to switch statement in other programming languages
 
     print(day_name)
 
-# Activity
+## Activity
 Write a Python script that asks the user to input a numerical score and categorizes it into grades (A, B, C, D, F) based on the following criteria:
 
     90-100: A

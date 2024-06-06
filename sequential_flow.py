@@ -1,14 +1,9 @@
-day_number = 3
+print("Hello, welcome to programming with Python")
 
-match day_number:
-    case 1:
-        day_name = "Monday"
-    case 2:
-        day_name = "Tuesday"
-    case 3:
-        day_name = "Wednesday"
-    case 4:
-        day_name = "Thursday"
+a = 10
+b = 5
+result = a + b
 
-print(day_name)
-    
+print(f"The result of adding {a} and {b} is {result}")
+
+print("Thank you")
